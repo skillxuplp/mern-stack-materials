@@ -1,0 +1,29 @@
+-> what is html5?
+    - hyper text markup language
+    - structure of the web page
+    - content: text, images, video, audio, lists, links, forms
+
+-> how?
+    - element(s) / tag(s)
+        1. block 
+            <elementName>
+                ....
+                .....
+            </elementName>
+            <p></p>, <div></div>, <h1></h1>
+
+        2. inline 
+            <elementName />
+            <img />, <br />, <hr />, <input />
+
+    - attribute(s)
+        1. block 
+            <elementName attributeName = "itsValue" attributeName>
+                ....
+                .....
+            </elementName>
+            <p style="color: red" onclick=""></p>, <div></div>, <h1></h1>
+
+        2. inline 
+            <elementName attributeName = "itsValue" attributeName />
+            <img />, <br />, <hr />, <input type="" name="username" value="" />
