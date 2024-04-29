@@ -27,3 +27,28 @@
         2. inline 
             <elementName attributeName = "itsValue" attributeName />
             <img />, <br />, <hr />, <input type="" name="username" value="" />
+
+
+-> formatting elements: 
+    h1 to h6, 
+    p, a
+
+
+-> listings
+-> images
+-> tables
+-> forms
+
+-> div & span
+-> semantic elements:
+    header
+    footer
+    main
+    section
+    article
+    aside
+    nav
+    figure
+    audio
+    video
+    
