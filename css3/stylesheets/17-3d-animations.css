@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    perspective: 800px;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotateCube 5s linear infinite;
+}
+
+.face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.face:nth-child(1) { transform: translateZ(50px); } /* front */
+.face:nth-child(2) { transform: rotateY(180deg) translateZ(50px);} /* back */
+.face:nth-child(3) { transform: rotateY(90deg) translateZ(50px);} /* right */
+.face:nth-child(4) { transform: rotateY(-90deg) translateZ(50px);} /* left */
+.face:nth-child(5) { transform: rotateY(90deg) translateZ(50px);} /* top */
+.face:nth-child(6) { transform: rotateY(-90deg) translateZ(50px);} /* bottom */
+
+
+@keyframes rotateCube {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}

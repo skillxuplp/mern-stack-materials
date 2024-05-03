@@ -1,0 +1,26 @@
+/* basic selector */
+.box {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+/* advance selector */
+#content .box {
+    background-color: #f0f0f0;
+}
+
+/* psuedo class selector */
+#content .box:hover {
+    background-color: lightblue;
+}
+
+/* psuedo element selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* psuedo class selector (nth-child) */
+li:nth-last-child(1) {
+    background-color: aqua;
+}

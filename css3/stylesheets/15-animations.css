@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #349fbb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: moveBox 2s linear infinite;
+}
+
+@keyframes moveBox {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 50px);
+    }
+}

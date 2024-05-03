@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 36px;
+    color: gray;
+}
+
+/* class */
+p.pList {
+    list-style-type: decimal;
+    color: violet;
+}
+
+.box {
+    border: 1px solid #2de;
+    background: #87a;
+}
+
+/* id */
+div#boxItem {
+    border: 1px solid #1d7;
+    background: #a0a;
+}
+
+div#itemStyling {
+    font-weight: bold;
+    text-transform: uppercase;
+}

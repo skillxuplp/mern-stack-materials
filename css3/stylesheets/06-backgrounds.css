@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 992px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.backgrounds {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.background-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bg-color {
+    background-color: #007bff;
+}
+
+#bg-image {
+    background-image: url("../images/eggs-6254861_640.jpg");
+    background-size: cover;
+}
+
+#bg-gradient {
+    background: linear-gradient(to right, #ff8c00, #ff008c);
+    background: -moz-linear-gradient(to right, #ff8c00, #ff008c);
+    background: -o-linear-gradient(to right, #ff8c00, #ff008c);
+    background: -webkit-linear-gradient(to right, #ff8c00, #ff008c);
+    background: -ms-linear-gradient(to right, #ff8c00, #ff008c);
+}
+
+#bg-position {
+    background-image: url("../images/eggs-6254861_640.jpg");
+    /* background-size: cover; */
+    background-position: center;
+}

@@ -1,0 +1,56 @@
+-> what is css?
+    - css stands for cascading style sheets
+    - used:
+        1. styling
+        2. alignment
+
+-> imp point:
+    - property
+        propertyName: itsValue;
+
+-> how?
+    1. inline 
+    2. emdedded
+    3. external
+
+-> color:
+    256
+    1. name: red, green, 
+    2. numerical: 
+        rgb(0, 0, 0)
+        rgb(255, 255, 255)
+        rgb(123, 161, 196)
+    3. hexadecimal
+        #... , #...., #......
+        a-f, A-F, 0-9
+        #d3a, #a4de, #5dcefa
+
+-> comment:
+    1. single - // 
+    2. multi - /* .. */
+
+-> class & id
+    
+-> resolutions: 
+    1. xtra small : < 320px
+    2. small : >= 320px and < 576px
+    3. medium : >= 576px and < 768px
+    4. large : >= 768px and < 992px 
+    5. extra large : >= 992px and < 1200px 
+    6. extra extra large : >= 1200px 
+
+
+    @media screen and (max-width: 576px) {  ... } 
+    @media screen and (min-width: 576px) and (max-width: 768px) {  ... } 
+    @media screen and (min-width: 768px) and (max-width: 992px) {  ... } 
+    @media screen and (min-width: 992px) and (max-width: 1200px) {  ... } 
+
+-> bem:
+    block element modifier
+    menu concept:
+        menu
+            menu-item
+                menu-link
+
+    .menu__.menu-item--.menu-link
+    [block]__[element]--[modifier]

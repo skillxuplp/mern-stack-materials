@@ -1,0 +1,15 @@
+p {
+    /* font-size: larger; */
+    text-align: center;
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div {
+    border: 1px solid #45a;
+    background: rgba(151, 168, 193, 0.2);
+}
