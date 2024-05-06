@@ -1,0 +1,15 @@
+-> what is bootstrap?
+    - css framework
+
+-> resolutions
+    1. xtra small device
+    2. small device
+    3. medium device
+    4. large device
+    5. extra large device
+    6. extra extra large device
+
+
+-> .container
+    .row
+        .col-md-12

@@ -1,0 +1,11 @@
+:root {
+    --heading-h1-color: #591ae;
+}
+
+h1 {
+    color: var(--heading-h1-color);
+}
+
+p {
+    color: var(--heading-h1-color);
+}
