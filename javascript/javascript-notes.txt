@@ -1,0 +1,7 @@
+What is JavaScript?
+JavaScript is a Open Source Client Side Scripting Language
+It helps the Programmer to Create:
+	The Interactivity to the Web Pages
+	Animations
+	Apply the Styles
+	
