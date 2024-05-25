@@ -1,9 +1,11 @@
-////////////////// Linking a Javascript File
+////////////////// 
+// Linking a Javascript File
 // External - <script src=''></script>
 // Embedded - <script> ......... </script>
 // Inline - javascript:void()
 
-////////////////// Data Types
+////////////////// 
+// Data Types
 // Types: 
 /**
  * Primitive Data Types
@@ -22,7 +24,8 @@
  * 
  */
 
-////////////////// Displaying The Result
+////////////////// 
+// Displaying The Result
 // document
 // document.write('<p>The Number: 747373</p>');
 // document.write("<p>The Number: 74.7373</p>");
@@ -37,17 +40,20 @@
 //         `);
 
 
-////////////////// console
+////////////////// 
+// console
 // console.log(84734);
 // console.log(473.36);
 // console.log('<p>this is a single quote result</p>');
 // console.warn('this is a warning message');
 // console.error('this is an error statement');
 
-////////////////// Keywords 
+////////////////// 
+// Keywords 
 // let, var, const, array, int, float, async, try, while, for, if
 
-////////////////// Variables
+////////////////// 
+// Variables
 // Declare the Variable
 // let js = "amazing";
 // console.log(js);
@@ -66,7 +72,8 @@
 
 // console.log(typeof jonas_matlido);
 
-////////////////// let, var and const
+////////////////// 
+// let, var and const
 // var myName = "Jonas";
 // console.log("My Name:" + myName);
 
@@ -86,7 +93,8 @@
 // console.log("BirthYear: " + birthYear);
 
 
-////////////////// Operators
+////////////////// 
+// Operators
 // Basic Operators
 // Math Operators
 // const now = 6884;
@@ -137,7 +145,8 @@
 // console.log(ageJonas, ageSarah, averageAge);
 
 
-////////////////// Strings and Template Literals
+////////////////// 
+// Strings and Template Literals
 // const firstName = "Jonas";
 // const job = "Teacher";
 // const birthYear = 1991;
@@ -160,7 +169,8 @@
 // lines
 // `);
 
-////////////////// Control Statements
+////////////////// 
+// Control Statements
 // Take Decision : If, If Else, Nested If Else, Switch Case
 // const age = 15;
 
@@ -185,27 +195,139 @@
 //////////////////
 // Type Conversion and Coercion
 // Type Conversion
-const inputYear = '1991';
-console.log(Number(inputYear), inputYear);
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
 
-console.log(Number('jonas'))
-console.log(typeof NaN);
+// console.log(Number('jonas'))
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
 // Type Ceorcion
-console.log('I am' + 23 + ' years old');
-console.log('23' - '10' - 3);
+// console.log('I am' + 23 + ' years old');
+// console.log('23' - '10' - 3);
 
 // Truthy and Falsy
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Jones'));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jones'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
 
-const money = 100;
-if(money) {
-    console.log("Don't spend it all")
-} else {
-    console.log('You should get a job')
-}
+// const money = 100;
+// if(money) {
+//     console.log("Don't spend it all")
+// } else {
+//     console.log('You should get a job')
+// }
+
+// let height = 0;
+// if(height) {
+//     console.log("YAY! Height is defined");
+// } else {
+//     console.log("Height is undefined");
+// }
+
+//////////////////
+// Equality Operators: == vs ===
+// const age = '18';
+// if(age === 18) console.log("You just became an adult :) (strict)");
+// if(age == 18) console.log("You just became an adult :) (loose)");
+
+// const favorite = Number(prompt("What's your favorite number?"));
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if(favorite === 23) {
+//     console.log("Cool! 23 is an amazing number!");
+// } else if(favorite === 7) {
+//     console.log("7 is also a cool number");
+// } else if(favorite === 9) {
+//     console.log("9 is also a cool number");
+// } else {
+//     console.log("Number is not 23 or 7 or 9");
+// }
+
+// if(favorite !== 23) console.log("Why not 23?");
+
+//////////////////
+// Logical Operators
+// const hasDriversLicense = true;
+// const hasGoodVision = false;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+
+// if(hasDriversLicense && hasGoodVision) {
+//     console.log("Sarah., is able to drive!");
+// } else {
+//     console.log("Someone else should drive...");
+// }
+
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+// console.log(hasDriversLicense || hasGoodVision || isTired);
+
+// if(hasDriversLicense && hasGoodVision && isTired) {
+//     console.log("Sarah., is able to drive!");
+// } else {
+//     console.log("Someone else should drive...");
+// }
+
+// if(!hasGoodVision) console.log("hasGoodVision");
+
+
+//////////////////
+// Switch Case Statement
+// const day = "friday";
+
+// switch(day) {
+//     case "monday": 
+//         console.log("Plan course structure");
+//         console.log("Go to coding meetup");
+//         break;
+
+//     case "tuesday": 
+//         console.log("Prepare theory videos");
+//         break;
+
+//     case "wednesday":
+        
+//     case "thursday":
+//         console.log("Write code examples");
+//         break;
+
+//     case "friday":
+//         console.log("Record videos");
+//         break;
+
+//     case "saturday": 
+
+//     case "sunday": 
+//         console.log("Enjoy the Weekend :D");
+//         break;
+
+//     default:
+//         console.log("Not a valid day!");
+// }
+
+////////////////// 
+// Statements and Expressions
+// 3 + 5
+// 3411
+// true && false && !false
+
+// if(23 > 10) {
+//     const str = "23 is bigger";
+// }
+
+// const me = "jonas";
+// console.log(`I'm ${2037 - 1991} years old ${me}`);
+
+
+////////////////// 
+// Conditional (Ternary) Operators
+// const age = 23;
+// age >= 18 ? console.log("I like to drink coke") : console.log("I like to drink water");
+
